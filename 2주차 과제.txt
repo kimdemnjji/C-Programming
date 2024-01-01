@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    char text[] = "aitnetop tse aitneics";
+    int i = sizeof(text);
+    for (i; i > 0; i--) {
+        cout << text[i];
+    }
+}
